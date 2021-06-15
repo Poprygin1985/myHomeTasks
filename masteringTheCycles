@@ -1,0 +1,16 @@
+static void Main(string[] args)
+{
+int numberOfRepetition;
+string message;
+
+Console.Write("Введите сообщение для трансляции:");
+message = Console.ReadLine();
+Console.Write("\nВведите количество повторений вашего сообщения:");
+numberOfRepetition = Convert.ToInt32(Console.ReadLine());
+
+
+while (numberOfRepetition-->0)
+{
+Console.WriteLine(message);
+}
+}
